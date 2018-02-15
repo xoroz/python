@@ -5,6 +5,8 @@ script to control if your etherium miner is working, if its not send an SMS (usi
 Created on Tue Jan 16 17:54:41 2018
 Get info from api.ethmine.org
 @author: ferreira
+
+TODO: Add a max SMS per hour, or send only X amount after a fail, need to keep track of SMS sents
 """
 
 import requests
